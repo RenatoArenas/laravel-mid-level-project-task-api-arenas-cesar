@@ -1,0 +1,28 @@
+{
+    "openapi": "3.0.0",
+    "info": {
+        "title": "API Usuarios",
+        "version": "1.0"
+    },
+    "servers": [
+        {
+            "url": "http://swagger.local"
+        }
+    ],
+    "paths": {
+        "/api/projects": {
+            "post": {
+                "summary": "Mostrar Proyectos",
+                "operationId": "17c612e0e1f3d6b64372c1f82fe5fa43",
+                "responses": {
+                    "200": {
+                        "description": "Mostrar todos los proyectos."
+                    },
+                    "default": {
+                        "description": "Ha ocurrido un error."
+                    }
+                }
+            }
+        }
+    }
+}
